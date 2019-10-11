@@ -1,0 +1,88 @@
+{
+  "R": {
+    "Version": "3.6.0",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cran.rstudio.com"
+      },
+      {
+        "Name": "Sage",
+        "URL": "http://ran.synapse.org"
+      }
+    ]
+  },
+  "Bioconductor": {
+    "Repositories": [
+      {
+        "Name": "BioCsoft",
+        "URL": "https://bioconductor.org/packages/3.9/bioc"
+      },
+      {
+        "Name": "BioCann",
+        "URL": "https://bioconductor.org/packages/3.9/data/annotation"
+      },
+      {
+        "Name": "BioCexp",
+        "URL": "https://bioconductor.org/packages/3.9/data/experiment"
+      },
+      {
+        "Name": "BioCworkflows",
+        "URL": "https://bioconductor.org/packages/3.9/workflows"
+      },
+      {
+        "Name": "CRAN",
+        "URL": "https://cran.rstudio.com/"
+      },
+      {
+        "Name": "Sage",
+        "URL": "http://ran.synapse.org"
+      }
+    ]
+  },
+  "Packages": {
+    "PythonEmbedInR": {
+      "Package": "PythonEmbedInR",
+      "Version": "0.3.37",
+      "Source": "Repository",
+      "Repository": "Sage",
+      "Hash": "1c9851afda5c6300be59a1d99fc694dc"
+    },
+    "R6": {
+      "Package": "R6",
+      "Version": "2.4.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "92b50d943a7c76c67918c1e1beb68627"
+    },
+    "pack": {
+      "Package": "pack",
+      "Version": "0.1-1",
+      "Source": "CRAN",
+      "RemoteType": "standard",
+      "RemoteRef": "pack",
+      "RemoteRepos": "https://cran.rstudio.com",
+      "RemoteSha": "0.1-1",
+      "Hash": "297fdfd63080b703a77be9fa81a4d4ca"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.7.0-125",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "rstudio",
+      "RemoteRepo": "renv",
+      "RemoteRef": "0.7.0-125",
+      "RemoteSha": "c6b89be02de6371dad6f778250ce230dc776eaf1",
+      "Hash": "08021eb25a02aae4abd570787c0c5933"
+    },
+    "rjson": {
+      "Package": "rjson",
+      "Version": "0.2.20",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "d3349736ec0f60d05591c316b926382e"
+    }
+  }
+}
