@@ -1,1 +1,2 @@
 library("PythonEmbedInR")
+library("synapser")
